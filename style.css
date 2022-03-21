@@ -1,0 +1,63 @@
+/* Pengaturan border-collapse jenis,ukuran serta warna huruf secara keseluruhan tabel */
+table{
+    border-collapse:collapse;
+    font:normal normal 12px Verdana,Arial,Sans-Serif;
+    color:#080808;
+  }
+  /* Mengatur warna latar, warna teks, ukruan font dan jenis bold (tebal) pada header tabel */
+  table th {
+    background:#5109f8;
+    color:#edfaf1;
+    font-weight:bold;
+    font-size:14px;
+  }
+  /* Mengatur border dan jarak/ruang pada kolom */
+  table th,
+  table td {
+    vertical-align:left;
+    padding:10px 20px;
+    border:1px solid #0202020c;
+  }
+  /* Mengatur warna baris */
+  table tr {
+    background:#f4fff9;
+  }
+  /* Mengatur warna baris genap (akan menghasilkan warna selang seling pada baris tabel) */
+  table tr:nth-child(even) {
+    background:#f1f7f2;
+  }
+    
+  
+   
+  
+  *{
+    margin: 0;
+  }
+  
+  .header{
+    width: 100%;
+    height: 100px;
+    background-color: #2b14ac98;
+  }
+  
+  .header h1{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(252, 246, 246);
+    font-family: fantasy;
+  }
+  
+  .link{
+    background-color: rgb(204, 12, 12);
+    color:rgb(252, 248, 244);
+    border:solid;
+    padding:20px 10px px 10px;
+    font-size: 25px;
+   position: relative;
+   left: 0px;
+   width: 200px;
+  height: 200px;
+   }
+  
