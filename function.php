@@ -64,7 +64,9 @@ function ubah($data)
     mysqli_query($db, $query);
 
     return mysqli_affected_rows($db);
-}function cari($keyword)
+}
+
+function cari($keyword)
 {
     $query = "SELECT * FROM mahasiswa 
                 WHERE 
